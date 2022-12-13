@@ -1,0 +1,161 @@
+/*Global Colors-Variables*/
+:root {
+  --accent-color: #4d5ae5;
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  --primary-background-color: #fff;
+  --secondary-background-color: #f4f4fd;
+  --dark-background-color: #2e2f42;
+}
+
+/*Global page settings begins*/
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*list - turn of bullets*/
+.list {
+  list-style: none;
+}
+
+footer {
+  background-color: var(--dark-background-color);
+  color: var(--primary-background-color);
+}
+/*Global page settings ends*/
+
+/*Buttons*/
+
+.button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+  cursor: pointer;
+}
+
+.button:hover .button:focus {
+  background-color: var(--accent-color);
+}
+
+.button-light {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+}
+
+.button-light:hover,
+.buton-light:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/*Header-Logo*/
+
+.logo-footer {
+  color: var(--primary-background-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+nav a,
+footer a {
+  text-decoration: none;
+}
+
+.blue-logo {
+  color: var(--accent-color);
+}
+
+/*Header - main navigation*/
+.main-navigation a {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.main-navigation-item:hover,
+.main-navigation-item:focus {
+  color: var(--primary-text-color);
+}
+
+/*Contacts*/
+.contacts > a {
+  font-family: inherit;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.contacts > a:hover,
+.contacts > a:focus {
+  color: var(--accent-color);
+}
+
+/*Studio page*/
+/*Hero*/
+
+.hero {
+  background-color: var(--dark-background-color);
+  color: var(--primary-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--primary-background-color);
+}
+
+/*Benefits*/
+.benefit-items > h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*What we are doing*/
+.heading-second-level {
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+/*Our Tean*/
+
+.our-team p {
+  background-color: var(--secondary-background-color);
+}
+.our-team-list > h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*Portfolio page*/
+
+.heading-third-level {
+  font-size: 20px;
+  line-height: 1.2;
+}
