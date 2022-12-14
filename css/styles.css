@@ -134,6 +134,15 @@ footer a {
   color: var(--primary-text-color);
 }
 
+/*Benefits*/
+.benefits {
+  display: flex;
+}
+
+.services {
+  display: flex;
+}
+
 /*Contacts*/
 .contacts > a {
   font-family: inherit;
@@ -173,6 +182,10 @@ footer a {
 
 /*Our Tean*/
 
+.our-team-list {
+  display: flex;
+}
+
 .our-team p {
   background-color: var(--secondary-background-color);
 }
@@ -186,4 +199,12 @@ footer a {
 .heading-third-level {
   font-size: 20px;
   line-height: 1.2;
+}
+
+.portfolio-menu {
+  display: flex;
+}
+
+.portfolio-items {
+  display: flex;
 }
