@@ -42,6 +42,8 @@ footer {
 }
 /*Global page settings ends*/
 
+/*Studio page begins*/
+
 /*Header*/
 .site-navigation{
   display: flex;
@@ -84,6 +86,13 @@ footer {
   background-color: var(--secondary-background-color);
   cursor: pointer;
   border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+.button-light:last-child {
+  margin-right: 0;
 }
 
 .button-light:hover,
@@ -112,6 +121,7 @@ footer {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 77px;;
 }
 
 nav a,
@@ -157,6 +167,7 @@ footer a {
 /*Benefits*/
 .benefits {
   display: flex;
+  padding-left: 0;
   
 }
 
@@ -179,6 +190,7 @@ footer a {
 
 .services {
   display: flex;
+  padding-left:0;
 }
 
 .services li{
@@ -251,6 +263,7 @@ footer a {
 
 .our-team-list {
   display: flex;
+  padding-left: 0;
 }
 
 .our-team-list > h3 {
@@ -273,17 +286,46 @@ footer p{
   margin-top: 16px;
 }
 
-/*Portfolio page*/
+/*Studio page begins*/
+
+/*Portfolio page begins*/
 
 .heading-third-level {
   font-size: 20px;
   line-height: 1.2;
 }
 
+/*Portfolio Navigation*/
+
 .portfolio-menu {
   display: flex;
+  padding-left:0;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
+.portfolio-menu li{
+  margin-right: 24px;
+}
+
+/*Portfolio works*/
 .portfolio-items {
+  padding-left:0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-items h2{
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.portfolio-items p{
+  margin-bottom: 32px;
+}
+
+.portfolio-card{
+  height: 420px;
+  background-color: var(--primary-background-color);
 }
