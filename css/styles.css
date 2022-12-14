@@ -18,6 +18,7 @@ body {
 
 .container{
   width: 1128px;
+  margin: 0 auto;
 }
 
 .section{
@@ -51,6 +52,8 @@ footer {
   background-color: var(--accent-color);
   color: var(--primary-background-color);
   cursor: pointer;
+  border: none;
+  padding: 16px 32px 16px 32px;
 }
 
 .button:hover .button:focus {
@@ -106,6 +109,7 @@ footer a {
 }
 
 /*Header - main navigation*/
+
 .main-navigation{
   display: flex;
 }
@@ -139,6 +143,14 @@ footer a {
   display: flex;
 }
 
+.benefits li {
+  margin-right: 24px;
+}
+
+.benefits li:last-child {
+  margin-right: 0;
+}
+
 .services {
   display: flex;
 }
@@ -158,14 +170,19 @@ footer a {
 /*Hero*/
 
 .hero {
+  display: flex;
+  align-items: center;
+  height: 603px;
   background-color: var(--dark-background-color);
   color: var(--primary-background-color);
+  text-align: center;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-background-color);
+  margin-bottom: 48px;
 }
 
 /*Benefits*/
@@ -173,6 +190,7 @@ footer a {
   font-size: 20px;
   line-height: 1.2;
 }
+
 
 /*What we are doing*/
 .heading-second-level {
