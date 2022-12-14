@@ -16,6 +16,14 @@ body {
   font-size: 16px;
 }
 
+.container{
+  width: 1128px;
+}
+
+.section{
+  padding: 120px 0 120px 0;
+}
+
 /*list - turn of bullets*/
 .list {
   list-style: none;
