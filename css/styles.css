@@ -24,6 +24,11 @@ body {
   padding: 120px 0 120px 0;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin-top:0;
+  margin-bottom:0;
+}
+
 /*list - turn of bullets*/
 .list {
   list-style: none;
@@ -101,6 +106,21 @@ footer a {
 }
 
 /*Header - main navigation*/
+.main-navigation{
+  display: flex;
+}
+
+.main-navigation li{
+  display: block;
+  margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.main-navigation li:last-child{
+  margin-right: 0;
+}
+
 .main-navigation a {
   color: var(--title-text-color);
   text-decoration: none;
