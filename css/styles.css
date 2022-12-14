@@ -45,6 +45,10 @@ footer {
 /*Studio page begins*/
 
 /*Header*/
+
+.header{
+  border-bottom: 1px solid var(--primary-text-color);
+}
 .site-navigation{
   display: flex;
   align-items: center;
@@ -301,6 +305,7 @@ footer p{
   display: flex;
   padding-left:0;
   justify-content: center;
+  margin-top: -24px;
   margin-bottom: 72px;
 }
 
@@ -328,4 +333,5 @@ footer p{
 .portfolio-card{
   height: 420px;
   background-color: var(--primary-background-color);
+  border-bottom: 1px solid var(--primary-text-color);
 }
