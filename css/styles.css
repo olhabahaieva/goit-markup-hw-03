@@ -64,7 +64,7 @@ footer {
 /*Header*/
 
 .header {
-  border-bottom: 1px solid var(--primary-text-color);
+  border-bottom: 1px solid #dcdcdc;
   padding-top: 24px;
   padding-bottom: 24px;
 }
