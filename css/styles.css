@@ -288,13 +288,16 @@ footer a {
   padding-left: 0;
 }
 
+.our-team-description {
+  margin: 32px 0 32px 0;
+}
+
 .our-team-list > h3 {
   font-size: 20px;
   line-height: 1.2;
 }
 
 .our-team-list h3 {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
