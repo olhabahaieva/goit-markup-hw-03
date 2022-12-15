@@ -324,6 +324,7 @@ footer p {
 .heading-third-level {
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em
 }
 
 /*Portfolio Navigation*/
@@ -348,16 +349,20 @@ footer p {
 }
 
 .portfolio-items h2 {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
-.portfolio-items p {
-  margin-bottom: 32px;
+.portfolio-image {
+  display: block;
 }
 
-.portfolio-card {
-  height: 420px;
-  background-color: var(--primary-background-color);
-  border-bottom: 1px solid var(--primary-text-color);
+.portfolio-description {
+  padding: 32px 16px;
+  border: 1px solid #dcdcdc;
+}
+
+.portfolio-card p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em
 }
