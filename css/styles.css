@@ -159,7 +159,7 @@ footer a {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 /*Header - main navigation*/
@@ -324,7 +324,7 @@ footer p {
 .heading-third-level {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 /*Portfolio Navigation*/
@@ -361,8 +361,8 @@ footer p {
   border: 1px solid #dcdcdc;
 }
 
-.portfolio-card p{
+.portfolio-card p {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
-} 
+  letter-spacing: 0.02em;
+}
