@@ -17,8 +17,9 @@ body {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -64,6 +65,8 @@ footer {
 
 .header {
   border-bottom: 1px solid var(--primary-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .site-navigation {
   display: flex;
@@ -157,13 +160,12 @@ footer a {
 
 .main-navigation {
   display: flex;
+  padding-left: 0;
 }
 
 .main-navigation li {
   display: block;
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .main-navigation li:last-child {
@@ -192,6 +194,7 @@ footer a {
 
 .benefits li {
   margin-right: 24px;
+  width: 264px;
 }
 
 .benefits h3 {
@@ -239,7 +242,7 @@ footer a {
 .hero {
   display: flex;
   align-items: center;
-  height: 603px;
+  padding: 192px 0 192px 0;
   background-color: var(--dark-background-color);
   color: var(--primary-background-color);
   text-align: center;
