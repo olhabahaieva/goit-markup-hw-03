@@ -55,7 +55,7 @@ ul {
 footer {
   background-color: var(--dark-background-color);
   color: var(--primary-background-color);
-  height: 310px;
+  padding: 100px 0 100px 0;
 }
 /*Global page settings ends*/
 
